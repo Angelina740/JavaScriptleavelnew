@@ -1,3 +1,4 @@
+https://www.codewars.com/kata/dna-to-rna-conversion/train/javascript?fbclid=IwAR1uG4Wv_2gxYUjh1q0KKt6zrq9OoHoUZxN5Mk2ejWvotJRa-iLmTfXzTUU
 function DNAtoRNA(dna) {
   for (var i = 0; i < dna.length; i++)
   {
@@ -8,8 +9,7 @@ function DNAtoRNA(dna) {
 
  }
  
- //
- 
+ https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript?fbclid=IwAR31K7Zd06j23xu6nYz1IKj8F0G8vEStTb1_KczUlVjfSIKtu_viIgWaigs 
  function warnTheSheep(queue) {
  if (queue[queue.length -1] === 'wolf') {
     return 'Pls go away and stop eating my sheep';
@@ -18,7 +18,8 @@ function DNAtoRNA(dna) {
      return `Oi! Sheep number ${queue.length - index - 1}! You are about to be eaten by a wolf!`;
     }
 } 
-  //
+  
+https://www.codewars.com/kata/find-the-first-non-consecutive-number/train/javascript?fbclid=IwAR3IxPNtM0-XNcd_VBBO-H4aheYDxYfrHRNQGuDwr8ofDAWq4MXO6Yl0Q5k
   
   function firstNonConsecutive (arr) {
 for (let i = 0; i < arr.length; i++) {
@@ -31,11 +32,6 @@ for (let i = 0; i < arr.length; i++) {
 
 2. Freecode
 
-// 
-var myArray = ["peanut butter", "jelly", "bread" [1,2,3]];
-
-
-//
 var myArray = [
   [1,2,3],
   [4,5,6],
