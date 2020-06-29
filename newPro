@@ -1,0 +1,59 @@
+function DNAtoRNA(dna) {
+  for (var i = 0; i < dna.length; i++)
+  {
+    dna = dna.replace('T', 'U');
+  }
+  
+  return dna;
+
+ }
+ 
+ //
+ 
+ function warnTheSheep(queue) {
+ if (queue[queue.length -1] === 'wolf') {
+    return 'Pls go away and stop eating my sheep';
+    } else {
+     let index = queue.findIndex( (x) => x == 'wolf' );
+     return `Oi! Sheep number ${queue.length - index - 1}! You are about to be eaten by a wolf!`;
+    }
+} 
+  //
+  
+  function firstNonConsecutive (arr) {
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i + 1] - arr[i] !== 1) {
+      return arr[i + 1];
+    }
+  }
+  return null;
+}
+
+2. Freecode
+
+// 
+var myArray = ["peanut butter", "jelly", "bread" [1,2,3]];
+
+
+//
+var myArray = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]];
+
+//
+var myArray = [50,60,70];
+var myData = myArray[0];
+
+//
+var myArray = [18,64,99];
+myArray[0] = 45;
+ 
+ //
+ 
+var myArray = [["John", 23], ["cat", 2]];
+myArray.push(["dog",3]);
+
+
+
+
